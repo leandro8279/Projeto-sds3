@@ -1,3 +1,4 @@
+package com.devsuperior.dsvendas.config;
 import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
