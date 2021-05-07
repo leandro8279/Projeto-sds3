@@ -3,7 +3,7 @@ import Pagination from "components/Pagination";
 import { useEffect, useState } from "react";
 import { SalePage } from "types/Sale";
 import { formatLocalDate } from "utils/format";
-import { BASE_URL } from "utils/requests";
+import { BASE_URL } from "utils/request";
 
 export default function NavBar() {
   const [activePage, setActivePage] = useState(0);
